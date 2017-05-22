@@ -8,11 +8,8 @@ git config --global user.name "Jay Doe"
 git config --global user.email jdoe@example.org
 ```
 
-## Create a Repo (GitHub)
-Visit the [Gladstone Institutes group](https://github.com/gladstone-institutes) and click the green "New" button. Fill out the forms, and you'll get a page with instructions on how to create a new repository on the command line, push an existing repository from the command line or import code from a non-git repository.
-
 ## Clone a Repo (GitHub)
-Visit the desired repository, e.g., [git-primer](https://github.com/gladstone-institutes/git-primer), and click the "Fork" button in the upper right. When your fork is created, click the green "Clone or download" button and copy the URL, e.g., `https://github.com/gladstone-institutes/git-primer.git`, to your clipboard. Then open your terminal to create and enter the repository from the command line (your copied URL should have your GitHub username instead of `gladstone-institutes`):
+Sign into your GitHub account and visit the desired repository, e.g., [git-primer](https://github.com/gladstone-institutes/git-primer). Click the "Fork" button in the upper right, and when your fork is created, click the green "Clone or download" button to copy the URL, e.g., `https://github.com/gladstone-institutes/git-primer.git`, to your clipboard. Then open your terminal to create a local version of the repository from the command line (your copied URL should have your GitHub username instead of `gladstone-institutes`):
 
 ```bash
 git clone https://github.com/gladstone-institutes/git-primer.git
