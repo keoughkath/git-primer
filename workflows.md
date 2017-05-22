@@ -2,7 +2,7 @@
 Higher-level tips and strategies for more effective usage of git.
 
 ## Workflow Models
-The appropriate workflow model depends on the size of your team and the type of your project. You have many options, e.g., [Atlassian](https://www.atlassian.com/blog/archives/simple-git-workflow-simple), [Driessen](http://nvie.com/posts/a-successful-git-branching-model/), [GitHub](https://guides.github.com/introduction/flow/) and [GitLab](https://docs.gitlab.com/ee/workflow/gitlab_flow.html), but they tend to be designed for projects like websites that are continuously running and supported by large teams, making them more complex than is needed for a one-off bioinformatics project created by a single individual or a small team. For these types of projects, the GitLab workflow is a good starting point, but you should feel free to customize it to suit your specific needs.
+The appropriate workflow model depends on the size of your team and the type of your project. You have many options, e.g., [Driessen](http://nvie.com/posts/a-successful-git-branching-model/), [Atlassian](https://www.atlassian.com/blog/archives/simple-git-workflow-simple), [GitHub](https://guides.github.com/introduction/flow/) and [GitLab](https://docs.gitlab.com/ee/workflow/gitlab_flow.html), but they tend to be designed for projects like websites that are continuously running and supported by large teams. That means they are often more complex than is appropriate for a one-off bioinformatics project created by a single individual or a small team. For these types of projects, the GitLab workflow is a good starting point, but you should feel free to customize it to suit your specific needs.
 
 `tldr`
 * Use feature branches, e.g., `add-cleaning-step` for changes
