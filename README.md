@@ -12,7 +12,7 @@ git config --global user.email jdoe@example.org
 Visit the [Gladstone Institutes group](https://github.com/gladstone-institutes) and click the green "New" button. Fill out the forms, and you'll get a page with instructions on how to create a new repository on the command line, push an existing repository from the command line or import code from a non-git repository.
 
 ## Clone a Repo (GitHub)
-Visit the desired repository, e.g., [git-primer](https://github.com/gladstone-institutes/git-primer), and click the green "Clone or download" button. Copy the URL, e.g., `https://github.com/gladstone-institutes/git-primer.git`, to your clipboard. Then open your terminal to create and enter the repository from the command line:
+Visit the desired repository, e.g., [git-primer](https://github.com/gladstone-institutes/git-primer), and click the "Fork" button in the upper right. When your fork is created, click the green "Clone or download" button and copy the URL, e.g., `https://github.com/gladstone-institutes/git-primer.git`, to your clipboard. Then open your terminal to create and enter the repository from the command line (your copied URL should have your GitHub username instead of `gladstone-institutes`):
 
 ```bash
 git clone https://github.com/gladstone-institutes/git-primer.git
@@ -26,7 +26,7 @@ Check status.
 git status
 ```
 
-Create a new branch named `my-feature` and push it to GitHub. It's a good idea to keep your active development in a separate branch from master so that master is always in the last known good state.
+Create a new branch named `my-feature` and push it to GitHub. It's a good idea to keep your active development in a separate branch from master so that master is always in the last known good state. For more information, see [our git workflows document](https://github.com/gladstone-institutes/git-primer/blob/master/workflows.md).
 ```bash
 git checkout -b my-feature
 git push origin my-feature
