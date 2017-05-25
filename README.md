@@ -35,6 +35,16 @@ mkdir my-dir
 touch my-dir/my-file.txt
 ```
 
+Add all files to be tracked.
+```bash
+git add .
+```
+
+Add only certain files to be tracked.
+```bash
+git add file.txt
+```
+
 Commit your work (do this often).
 ```bash
 git add ./my-dir/my-file.txt
